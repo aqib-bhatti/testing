@@ -5,7 +5,7 @@ const PRODUCTS = [
     id: 1,
     name: "Modern Sofa",
     price: 120000,
-    glbSrc: "../public/Couch Medium.glb",
+    glbSrc: "/Couch Medium.glb",
     usdzSrc: "/models/sofa.usdz",
     poster: "/posters/sofa.jpg",
   },
