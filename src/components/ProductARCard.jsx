@@ -9,7 +9,7 @@ export default function ProductARCard({ name, price, glbSrc, usdzSrc, poster }) 
   ar
   ar-modes="webxr scene-viewer quick-look"
   ar-placement="floor"
-  ar-scale="fixed"
+  ar-scale="auto"
   camera-controls
   auto-rotate
   scale="0.3 0.3 0.3"   // 👈 size chhota kar do (X Y Z sab)
@@ -29,4 +29,5 @@ export default function ProductARCard({ name, price, glbSrc, usdzSrc, poster }) 
     </div>
   );
 }
+
 
